@@ -1,0 +1,493 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Zilla+Slab&display=swap');
+
+body{
+    font-family: 'Zilla Slab', serif;
+    font-size: 16px;
+    line-height: 24px;
+    background-color: white;
+    
+}
+.ancho {
+    max-width: 1200px;
+    margin: auto;
+}
+
+header{
+    background-color: #fff9f1;
+    border-top: 15px  #fe3281 solid;
+    padding-bottom: 15px;
+}
+.contenedor_header{
+display: flex;
+flex-direction: row;
+justify-content:space-between;
+align-items:center;
+}
+
+.caja_movil figure{
+max-width: 200px;
+}
+.caja_movil figure img{
+    max-width: 100%;
+
+}
+
+.caja_movil a{
+    padding: 10px;
+    background-color: #fe3281;
+    border-radius: 4px;
+    padding: 15px;
+    display: none;
+}
+
+.caja_movil a i{
+    color: white;
+    font-size: 20px;
+}
+
+.iconos_redes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.iconos_redes a{
+text-decoration: none;
+margin-right: 25px;
+color: black;
+display: inline-block;
+transition: all 1s ;
+}
+
+.iconos_redes a i{
+    font-size: 40px;
+  }
+
+.iconos_redes a:hover{
+    color: #fe3281;
+}
+
+.contenedor_menu{
+        border: 3px black solid;
+}
+.caja_menu{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.caja_menu li{
+    text-decoration: none;
+    padding: 10px;
+}
+.caja_menu li a{
+    text-decoration: none;
+    padding: 10px 15px;
+    color: black;
+}
+
+.caja_menu  li a:hover{
+    color: #fe3281;
+  }
+
+.contenedor_fondo{
+    background-image: url(../imagenes/slide1.jpg);
+     height: 550px;
+     background-repeat: no-repeat;
+     background-size: cover;
+     border: 5px #fe3281 solid;
+     margin-bottom: 15px;
+   }
+
+   .caja_tex{
+    display: flex;
+    height: 550px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  .caja_tex p{
+    font-size: 20px;
+    max-width: 600px;
+    text-align: center;
+    line-height: 30px;
+    font-weight: bold;
+  }
+  .caja_botones{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .boton_rosado{
+    background-color: #fe3281;
+    border: 2px #fe3281 solid;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    display: inline-block;
+  }
+  .boton_rosado:hover{
+    background-color: black;
+    transition: all 1s;
+    border: 2px black solid;
+  }
+  .boton_transparente{
+    background-color: transparent;
+    border: 2px #fe3281 solid;
+    padding: 12px 25px;
+    text-decoration: none;
+    display: inline-block;
+  }
+  .boton_transparente:hover{
+    background-color: white;
+    transition: all 1s;
+    border: 2px white solid;
+  }
+
+
+.contenedor_velas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px 0px 50px;
+}
+.caja_texto_velas{
+    max-width: 400px;
+}
+
+.caja_texto_velas p{
+    font-size: 15px;
+}
+
+.figura_velas figure{
+    max-width:  800px;
+        border: 5px green solid;
+}
+
+.figura_velas figure img{
+     max-width: 100%;
+     filter: opacity(25%);;
+     transition: all 1s ease;
+}
+
+.figura_velas figure:hover img{
+    filter: opacity(100%);
+}
+
+.titulo_texto {
+   margin-top: 15px;
+   margin-bottom: 15px;
+}
+.titulo_texto p{
+text-align: center;
+font-size: 20px;
+font-weight: bold;
+color: black;
+}
+
+.caja_fondo_beshe{
+    background-color: #fff9f1;
+}
+
+.contenedor_perfume{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0px 50px 0px 50px;
+}
+.contenedor_perfume figure{
+    max-width:  500px;
+    margin: 10px;
+}
+
+.contenedor_perfume figure img{
+    border-radius: 20px;
+    max-width:  100%;
+    filter: sepia(0%);
+    transition: all 0.5s;
+}
+
+.contenedor_perfume figure:hover img{
+    filter: sepia(100%);
+}
+
+.caja_texto2{
+        max-width: 55%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+}
+
+.titulo2{
+    font-weight: bold;
+    margin: 10px 0px 10px 0px;
+    font-size: 20px;
+}
+
+
+
+
+.contenedor_plantillas{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    background-color: #fff9f1;
+}
+
+.caja_platilla{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    max-width: 300px;
+    background-color: #ffe8a4;
+    border-radius: 10px;
+    margin: 20px;
+}
+.caja_platilla figure{
+    margin-top: 10px;
+    max-width: 170px;
+    padding: 12px;
+    overflow: hidden;
+}
+
+.caja_platilla figure img{
+    max-width: 100%;
+    border: 10px white solid;
+    border-radius: 50%;
+    transform: scale(1);
+    transition: all 0.5s;
+}
+.caja_platilla figure:hover img{
+    transform: scale(1.2);
+}
+.contenedor_texto_de_platilla{
+    padding: 10px;
+}
+
+.contenedor_texto_de_platilla h3{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 20px
+}
+
+.contenedor_texto_de_platilla p{
+    margin-top: 10px;
+    text-align:left;
+    font-size: 14px
+}
+
+.caja_btn_ver_rosa{
+    padding: 30px;
+
+}
+
+.caja_btn_ver_rosa a{
+    padding: 10px 20px 10px 20px;
+    background-color: #fe3281;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all 1s;
+}
+
+.caja_btn_ver_rosa a:hover {
+    background-color: white;
+    color: #fe3281;
+}
+
+.contenedor_galeria{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+}
+
+.contenejor_ga{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 50%;
+}
+.caja_foto1{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.caja_foto1 figure {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    cursor: pointer;
+ }
+.caja_foto1 figure img{
+   max-width: 100%;
+   height: 100%;
+   transform: scale(1);
+   transition: all 0.5s;
+}
+
+.caja_foto1 figure:hover img{
+    transform: scale(1.2);
+ }
+
+.figur_cama figure{
+   max-width: 599px;
+   height: 600px;
+   overflow: hidden;
+   cursor: pointer;
+}
+.figur_cama figure img{
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1);
+    transition: all 0.5s;
+    }
+
+.figur_cama figure:hover img{
+        transform: scale(1.2);
+     }
+.btn_flecha i{
+    background-color: #fe3281;
+    border-radius: 50%;
+}
+    .flecha_arriba{
+        position:fixed;
+        z-index: 10;
+        right:20px;
+        bottom:20px;
+        font-size: 50px;
+        filter: drop-shadow(0px 0px 5px rgb(36, 35, 35));
+        color: white;
+        cursor: pointer;
+      }
+
+      footer{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items:center;
+        padding: 20px;
+        border-bottom: 15px #fe3281 solid;
+      }
+      footer a{
+        text-decoration:none;
+        color: #fe3281;
+        padding-bottom: 10px;
+        font-size: 20px;
+      }
+
+
+  @media screen and (max-width:850px){
+    .contenedor_fondo{
+        background-image: url(../imagenes/slide2.jpg);
+       }
+
+       .contenedor_plantillas{
+        flex-direction: column;
+    }
+
+    .caja_platilla{
+
+        max-width: 100%;
+    }
+
+
+    .contenedor_galeria{
+        flex-direction:column-reverse;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+    }
+    .contenejor_ga{
+        max-width: 100%;
+    }
+  }
+
+@media screen and (max-width:480px){
+    .contenedor_header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        }
+    .caja_movil{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 10px 20px 10px 20px;
+    }
+
+    .caja_movil a{
+        display: inline-block;
+    }
+
+  /* son el orden de las posicion de las imagenes*/
+  .red_dos{
+    order:1;
+  }
+  .red_tres{
+    order:2;
+  }
+  .red_uno{
+    order:3;
+  }
+
+    .contenedor_menu{
+        display: none;
+    }
+
+    .contenedor_fondo{
+        background-image: url(../imagenes/slide1.jpg);
+       }
+
+       .contenedor_velas{
+        flex-direction:column-reverse;
+        padding: 50px 0px 50px 0px;
+    }
+
+
+    .contenedor_perfume{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        padding: 50px 0px 50px 0px;
+    }
+    .caja_platilla{
+        max-width: 300px;;
+    }
+
+    .caja_texto2{
+        max-width: 100%;
+        margin: 10px;
+        
+}
+
+.caja_foto1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+  }
